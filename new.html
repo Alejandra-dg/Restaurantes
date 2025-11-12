@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuevo Restaurante</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">GastroFinder</h1>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="search.html">Buscar</a>
+      <a href="new.html" class="active">Nuevo</a>
+    </nav>
+  </header>
+
+  <main class="container fade-in">
+    <h2 class="title">➕ Agregar Nuevo Restaurante</h2>
+
+    <form class="form-card">
+      <label>Nombre:</label>
+      <input type="text" placeholder="Ej: Mar y Tierra" required>
+
+      <label>Descripción:</label>
+      <textarea placeholder="Breve descripción..." required></textarea>
+
+      <label>Dirección:</label>
+      <input type="text" placeholder="Ej: Calle 37c #18-20" required>
+
+      <label>Imagen (URL):</label>
+      <input type="url" placeholder="https://...">
+
+      <button type="submit">Guardar Restaurante</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Restaurantes Medellín</p>
+  </footer>
+</body>
+</html>
+

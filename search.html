@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscar Restaurante</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">GastroFinder</h1>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="search.html" class="active">Buscar</a>
+      <a href="new.html">Nuevo</a>
+    </nav>
+  </header>
+
+  <main class="container fade-in">
+    <h2 class="title">🔍 Buscar Restaurantes</h2>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Escribe el nombre del restaurante...">
+      <button onclick="buscarRestaurante()">Buscar</button>
+    </div>
+
+    <div id="resultado" class="result-card"></div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Restaurantes Medellín</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
